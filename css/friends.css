@@ -34,4 +34,8 @@
 
 .friend-section-tagline {
   font-size: 11px;
+  background: #f0f0f0;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: #676767;
 }
