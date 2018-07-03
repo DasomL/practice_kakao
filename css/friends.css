@@ -23,7 +23,12 @@
   text-decoration: none;
   color: inherit;
 }
-.friend-section-row.with-tagline .friends-section-column {
+.friend-section-row.with-tagline {
+  display: flex;
+  align-items: center;
+}
+
+.friends-section-column {
   display: flex;
   align-items: center;
 }

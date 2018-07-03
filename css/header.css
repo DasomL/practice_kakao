@@ -17,6 +17,16 @@
   justify-content: flex-start;
 }
 
+.top-header .header___profile_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.header___profile_bottom .header__profile_column:nth-child(2) {
+  text-align: right;
+}
+
 .top-header .header__top {
   margin-bottom: 15px;
   font-size: 12px;
@@ -26,8 +36,13 @@
   margin: 0 10px;
 }
 
-.top-header .header__more_bottom {
+.top-header .header__profile_bottom {
   margin: 0 10px;
+}
+
+.header__profile_column a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .top-header .header__column {
