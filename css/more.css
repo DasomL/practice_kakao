@@ -1,0 +1,12 @@
+.more {
+  background-color: #f2f2f2;
+}
+
+.more .more-header {
+  background-color: white;
+}
+
+.more-header .header-column img {
+  width: 50px;
+  border-radius: 50%;
+}

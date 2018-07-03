@@ -26,7 +26,15 @@
   margin: 0 10px;
 }
 
+.top-header .header__more_bottom {
+  margin: 0 10px;
+}
+
 .top-header .header__column {
+  width: 33%;
+}
+
+.top-header .header__more_column {
   width: 33%;
 }
 
@@ -38,10 +46,31 @@
   text-align: right;
 }
 
+.top-header .header__more_column:last-child {
+  text-align: right;
+}
+
 .top-header .header__column:nth-child(2) {
+  text-align: center;
+}
+
+.top-header .header__more_column:nth-child(1) {
   text-align: center;
 }
 
 .top-header .header__number {
   color: yellow;
+}
+
+.top-header .header__more_bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-header .header__more_bottom {
+  margin: 0 10px;
+}
+
+.top-header .header___more_column {
+  width: 33%;
 }
